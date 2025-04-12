@@ -1,0 +1,72 @@
+print_history:
+- analysisFirstFilamentPrintTime: 4.729078824897442
+  analysisLastFilamentPrintTime: 16939.881397597826
+  analysisPrintTime: 16939.881397597826
+  compensatedPrintTime: 17193.323010201148
+  firstFilamentPrintTime: 72.76561923394911
+  lastFilamentPrintTime: 18148.43773290189
+  payload:
+    name: VC Foot1 Generic TPU 95A lw 0.45mm lh 0.1mm if 15% ext1 228C bed 0C.gcode
+    origin: local
+    owner: _api
+    path: VC Foot1 Generic TPU 95A lw 0.45mm lh 0.1mm if 15% ext1 228C bed 0C.gcode
+    size: 10041740
+    time: 18149.3922942488
+  timestamp: 1742438723.1080012
+- analysisFirstFilamentPrintTime: 1.5052033696618992
+  analysisLastFilamentPrintTime: 577.0924404577714
+  analysisPrintTime: 577.1020404577714
+  compensatedPrintTime: 786.1626759075161
+  firstFilamentPrintTime: 335.5218556020409
+  lastFilamentPrintTime: 1216.351722551044
+  payload:
+    name: Backattachment_PETG_13m53s.gcode
+    origin: local
+    owner: _api
+    path: Backattachment_PETG_13m53s.gcode
+    size: 1233255
+    time: 1216.7347869640216
+  timestamp: 1741896272.5113883
+- analysisFirstFilamentPrintTime: 1.8927721009822562
+  analysisLastFilamentPrintTime: 28466.062785723396
+  analysisPrintTime: 28466.085259483978
+  compensatedPrintTime: 28661.55895972601
+  firstFilamentPrintTime: 212.80933406506665
+  lastFilamentPrintTime: 36934.734466464026
+  payload:
+    name: BasePlate_PETG_8h44m.gcode
+    origin: local
+    owner: _api
+    path: BasePlate_PETG_8h44m.gcode
+    size: 30129802
+    time: 36935.01597980503
+  timestamp: 1741846826.9697306
+- analysisFirstFilamentPrintTime: 1.7257870655521401
+  analysisLastFilamentPrintTime: 39003.33383469705
+  analysisPrintTime: 39003.35622315675
+  compensatedPrintTime: 39185.271675735494
+  firstFilamentPrintTime: 180.9881476199953
+  lastFilamentPrintTime: 54276.87780585303
+  payload:
+    name: LeftTop_PETG_11h46m.gcode
+    origin: local
+    owner: _api
+    path: LeftTop_PETG_11h46m.gcode
+    size: 30826018
+    time: 54277.193261987995
+  timestamp: 1741782479.5573275
+- analysisFirstFilamentPrintTime: 0.7780681264503073
+  analysisLastFilamentPrintTime: 4959.126791230314
+  analysisPrintTime: 4959.1363916303135
+  compensatedPrintTime: 5121.123794982112
+  firstFilamentPrintTime: 267.14867369201966
+  lastFilamentPrintTime: 9338.146779460018
+  payload:
+    name: LeftFinger_PETG_2h25m.gcode
+    origin: local
+    owner: _api
+    path: LeftFinger_PETG_2h25m.gcode
+    size: 14350433
+    time: 9338.215958775021
+  timestamp: 1741727458.5322373
+version: 2.4.0

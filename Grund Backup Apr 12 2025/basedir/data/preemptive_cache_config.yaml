@@ -1,0 +1,16 @@
+/:
+- _count: 263
+  _timestamp: 1744464052.0596995
+  base_url: http://grund.local/
+  path: /
+  query_string: l10n=en
+- _count: 2
+  _timestamp: 1744462944.7362416
+  base_url: https://127.0.0.1:5000/
+  path: /
+  query_string: l10n=en
+- _count: 3
+  _timestamp: 1744290659.7214441
+  base_url: http://192.168.50.69/
+  path: /
+  query_string: l10n=en

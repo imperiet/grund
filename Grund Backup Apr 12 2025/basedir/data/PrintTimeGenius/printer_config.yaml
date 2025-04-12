@@ -1,0 +1,4 @@
+printer_config:
+- M204 S3000 PARSE RSE TO
+- M220 S100
+version: 2.3.3

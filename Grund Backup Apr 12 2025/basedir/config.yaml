@@ -1,0 +1,579 @@
+api:
+  allowCrossOrigin: true
+  key: 766191C62F374DB6965E40B5C838FEED
+appearance:
+  color: black
+  colorIcon: false
+  colorTransparent: true
+  name: Grund
+plugins:
+  LEDStripControl:
+    _config_version: 2
+    b: 35
+    g: 33
+    r: 37
+    w: 31
+  announcements:
+    _config_version: 1
+    channels:
+      _blog:
+        read_until: 1734507000
+      _important:
+        read_until: 1698310200
+      _octopi:
+        read_until: 1684929600
+      _plugins:
+        read_until: 1738022400
+      _releases:
+        read_until: 1738073700
+  arc_welder:
+    enabled: false
+    overwrite_source_file: true
+  bedlevelvisualizer:
+    _config_version: 1
+    command: G29
+    flipY: true
+    mesh_timestamp: 4/10/2025, 2:48:32 PM
+    stored_mesh:
+    - - '0.032167'
+      - '0.028686'
+      - '0.022538'
+      - '0.017167'
+      - '0.006260'
+      - '-0.011536'
+      - '-0.025333'
+      - '-0.048518'
+      - '-0.084036'
+      - '-0.105333'
+    - - '0.038001'
+      - '0.036795'
+      - '0.034328'
+      - '0.030908'
+      - '0.018144'
+      - '-0.003164'
+      - '-0.018925'
+      - '-0.040825'
+      - '-0.073758'
+      - '-0.093444'
+    - - '0.046056'
+      - '0.048763'
+      - '0.052641'
+      - '0.052649'
+      - '0.037172'
+      - '0.010607'
+      - '-0.008073'
+      - '-0.027819'
+      - '-0.056508'
+      - '-0.073555'
+    - - '0.044667'
+      - '0.050390'
+      - '0.059223'
+      - '0.062167'
+      - '0.046445'
+      - '0.018834'
+      - '-0.000333'
+      - '-0.018629'
+      - '-0.044814'
+      - '-0.060333'
+    - - '0.000315'
+      - '0.010905'
+      - '0.028092'
+      - '0.037427'
+      - '0.031677'
+      - '0.019258'
+      - '0.009186'
+      - '-0.008136'
+      - '-0.034896'
+      - '-0.050962'
+    - - '-0.073481'
+      - '-0.055473'
+      - '-0.025505'
+      - '-0.006203'
+      - '0.004680'
+      - '0.017752'
+      - '0.022927'
+      - '0.007020'
+      - '-0.021058'
+      - '-0.038259'
+    - - '-0.117833'
+      - '-0.095462'
+      - '-0.057981'
+      - '-0.032833'
+      - '-0.012296'
+      - '0.015575'
+      - '0.029667'
+      - '0.015075'
+      - '-0.012962'
+      - '-0.030333'
+    - - '-0.118814'
+      - '-0.096583'
+      - '-0.059405'
+      - '-0.034740'
+      - '-0.016543'
+      - '0.007652'
+      - '0.020019'
+      - '0.008730'
+      - '-0.013369'
+      - '-0.027092'
+    - - '-0.110351'
+      - '-0.089381'
+      - '-0.054478'
+      - '-0.031981'
+      - '-0.019869'
+      - '-0.005132'
+      - '0.002371'
+      - '-0.003554'
+      - '-0.015510'
+      - '-0.022962'
+    - - '-0.105333'
+      - '-0.085110'
+      - '-0.051555'
+      - '-0.030333'
+      - '-0.021796'
+      - '-0.012592'
+      - '-0.007833'
+      - '-0.009907'
+      - '-0.014759'
+      - '-0.017833'
+    - - '-0.111277'
+      - '-0.090465'
+      - '-0.055875'
+      - '-0.033777'
+      - '-0.023654'
+      - '-0.011833'
+      - '-0.004851'
+      - '-0.002126'
+      - '0.000524'
+      - '0.001964'
+    - - '-0.122666'
+      - '-0.100645'
+      - '-0.063927'
+      - '-0.039999'
+      - '-0.026252'
+      - '-0.008551'
+      - '0.002908'
+      - '0.012726'
+      - '0.026182'
+      - '0.034093'
+    - - '-0.132833'
+      - '-0.109666'
+      - '-0.070944'
+      - '-0.045333'
+      - '-0.028333'
+      - '-0.005444'
+      - '0.009667'
+      - '0.023630'
+      - '0.043149'
+      - '0.054667'
+    - - '-0.156259'
+      - '-0.130168'
+      - '-0.086384'
+      - '-0.056740'
+      - '-0.032500'
+      - '0.001528'
+      - '0.023204'
+      - '0.037038'
+      - '0.054757'
+      - '0.065038'
+    - - '-0.193129'
+      - '-0.162404'
+      - '-0.110606'
+      - '-0.074592'
+      - '-0.038955'
+      - '0.012568'
+      - '0.044408'
+      - '0.057009'
+      - '0.070207'
+      - '0.077519'
+    - - '-0.215333'
+      - '-0.181814'
+      - '-0.125185'
+      - '-0.085333'
+      - '-0.042833'
+      - '0.019223'
+      - '0.057167'
+      - '0.068927'
+      - '0.079241'
+      - '0.084667'
+    stored_mesh_x:
+    - 0
+    - 23
+    - 47
+    - 70
+    - 93
+    - 117
+    - 140
+    - 163
+    - 187
+    - 210
+    stored_mesh_y:
+    - 0
+    - 21
+    - 41
+    - 62
+    - 83
+    - 103
+    - 124
+    - 145
+    - 165
+    - 186
+    - 207
+    - 227
+    - 248
+    - 269
+    - 289
+    - 310
+    stored_mesh_z_height: 200
+  classicwebcam:
+    _config_version: 1
+    snapshot: http://127.0.0.1:8080/?action=snapshot
+    stream: /webcam/?action=stream
+  cura:
+    cura_engine: null
+  custombackground:
+    _config_version: 1
+    background_url: /plugin/custombackground/static/img/ocotoprint-transparent.png
+  discovery:
+    publicPort: 80
+    upnpUuid: b28a5269-7d97-4e42-8532-74739145e328
+  enclosure:
+    _config_version: 10
+    rpi_outputs:
+    - active_low: true
+      alarm_set_temp: 0
+      auto_shutdown: false
+      auto_startup: false
+      controlled_io: 0
+      controlled_io_set_value: Low
+      default_duty_cycle: 0
+      default_ledstrip_color: ''
+      default_neopixel_color: ''
+      duty_a: 0
+      duty_b: 0
+      duty_cycle: 0
+      gcode: M150 W255
+      gpio_i2c_address: 1
+      gpio_i2c_bus: 1
+      gpio_i2c_data_off: 0
+      gpio_i2c_data_on: 1
+      gpio_i2c_enabled: false
+      gpio_i2c_register: 1
+      gpio_i2c_register_status: 1
+      gpio_pin: 0
+      gpio_status: false
+      hide_btn_ui: false
+      index_id: 1
+      label: Lights On
+      ledstrip_color: rgb(0,0,0)
+      ledstrip_gpio_clk: ''
+      ledstrip_gpio_dat: ''
+      linked_temp_sensor: ''
+      microcontroller_address: 0
+      neopixel_brightness: 255
+      neopixel_color: rgb(0,0,0)
+      neopixel_count: 0
+      new_duty_cycle: ''
+      new_ledstrip_color: ''
+      new_neopixel_color: ''
+      output_type: gcode_output
+      pwm_frequency: 50
+      pwm_status: 50
+      pwm_temperature_linked: false
+      shell_script: ''
+      show_on_navbar: true
+      shutdown_on_error: false
+      shutdown_on_failed: false
+      shutdown_time: 0
+      startup_time: 0
+      startup_with_server: false
+      temp_ctr_deadband: 0
+      temp_ctr_default_value: 0
+      temp_ctr_max_temp: 0
+      temp_ctr_new_set_value: ''
+      temp_ctr_set_value: 0
+      temp_ctr_type: heater
+      temperature_a: 0
+      temperature_b: 0
+      toggle_timer: false
+      toggle_timer_off: 0
+      toggle_timer_on: 0
+    - active_low: true
+      alarm_set_temp: 0
+      auto_shutdown: false
+      auto_startup: false
+      controlled_io: 0
+      controlled_io_set_value: Low
+      default_duty_cycle: 0
+      default_ledstrip_color: ''
+      default_neopixel_color: ''
+      duty_a: 0
+      duty_b: 0
+      duty_cycle: 0
+      gcode: M150 W0
+      gpio_i2c_address: 1
+      gpio_i2c_bus: 1
+      gpio_i2c_data_off: 0
+      gpio_i2c_data_on: 1
+      gpio_i2c_enabled: false
+      gpio_i2c_register: 1
+      gpio_i2c_register_status: 1
+      gpio_pin: 0
+      gpio_status: false
+      hide_btn_ui: false
+      index_id: 2
+      label: Lights Off
+      ledstrip_color: rgb(0,0,0)
+      ledstrip_gpio_clk: ''
+      ledstrip_gpio_dat: ''
+      linked_temp_sensor: ''
+      microcontroller_address: 0
+      neopixel_brightness: 255
+      neopixel_color: rgb(0,0,0)
+      neopixel_count: 0
+      new_duty_cycle: ''
+      new_ledstrip_color: ''
+      new_neopixel_color: ''
+      output_type: gcode_output
+      pwm_frequency: 50
+      pwm_status: 50
+      pwm_temperature_linked: false
+      shell_script: ''
+      show_on_navbar: true
+      shutdown_on_error: false
+      shutdown_on_failed: false
+      shutdown_time: 0
+      startup_time: 0
+      startup_with_server: false
+      temp_ctr_deadband: 0
+      temp_ctr_default_value: 0
+      temp_ctr_max_temp: 0
+      temp_ctr_new_set_value: ''
+      temp_ctr_set_value: 0
+      temp_ctr_type: heater
+      temperature_a: 0
+      temperature_b: 0
+      toggle_timer: false
+      toggle_timer_off: 0
+      toggle_timer_on: 0
+    use_board_pin_number: true
+  errortracking:
+    unique_id: bccf3ca0-099f-44d0-8160-68938a2235b5
+  gcodeviewer:
+    _config_version: 1
+  klipper:
+    _config_version: 4
+    configuration:
+      confirm_reload: false
+    macros:
+    - macro: ZUP
+      name: Increase Offset Temporarily
+      sidebar: true
+      tab: true
+    - macro: ZDOWN
+      name: Decrease Offset Temporarily
+      sidebar: true
+      tab: true
+    - macro: G28.1
+      name: Force Home All
+      sidebar: true
+      tab: true
+    - macro: G29
+      name: Bed Mesh
+      sidebar: true
+      tab: true
+    - macro: |-
+        G90
+        G1 X100 Y150
+      name: Center
+      sidebar: true
+      tab: true
+    - macro: |-
+        G28
+        Z_TILT_ADJUST
+      name: Adjust Z Tilt
+      sidebar: true
+      tab: true
+    - macro: 'M204 S{label:Acceleration, unit:mmps2, default:3000} '
+      name: Set Acceleration
+      sidebar: true
+      tab: true
+    - macro: Test_A_Motor F={label:Feedrate, unit:mmps, default:2000}
+      name: Test A Motor
+      sidebar: true
+      tab: true
+    - macro: Test_B_Motor F={label:Feedrate, unit:mmps, default:2000}
+      name: Test B Motor
+      sidebar: true
+      tab: true
+  octoapp:
+    encryptionKey: 4dff44dc-0821-4191-95db-b4a282fbb0fb
+  octoeverywhere:
+    AddPrinterUrl: https://octoeverywhere.com/getstarted?isFromOctoPrint=true&printerid=9B316QWCT9BGZJ3YYDJE1W648IST2W2IHCYGB7GNS6H4W11CU3FNJFWGI7DV
+    HasConnectedAccounts: true
+    NoAccountConnectedLastInformDateTime: 2025-01-20 22:25:22.150273
+    Pid: 76aJQ7VgIEbYdfddAY7sY4YdPLp94VMucDBquyx5wOaf8qDPscPq9b9RVakHzDpiN3A10i0Xzk1M88oL
+    PluginUpdateRequired: false
+    PluginVersion: 4.1.0
+    PrinterKey: 9B316QWCT9BGZJ3YYDJE1W648IST2W2IHCYGB7GNS6H4W11CU3FNJFWGI7DV
+  plotlytempgraph:
+    _config_version: 5
+    graph_bg_color: '#36393f'
+    name_map:
+    - color: '#f9aaff'
+      hidden: false
+      hover_color: ''
+      hover_template: ''
+      identifier: tool0 actual
+      label: Extruder
+      use_fahrenheit: false
+      use_sub_plot: true
+    - color: '#f9aaff'
+      hidden: false
+      hover_color: ''
+      hover_template: ''
+      identifier: tool0 target
+      label: Extruder Target
+      use_fahrenheit: false
+      use_sub_plot: true
+    - color: '#9dbdff'
+      hidden: false
+      hover_color: ''
+      hover_template: ''
+      identifier: bed actual
+      label: Bed
+      use_fahrenheit: false
+      use_sub_plot: true
+    - color: '#9dbdff'
+      hidden: false
+      hover_color: ''
+      hover_template: ''
+      identifier: bed target
+      label: Bed Target
+      use_fahrenheit: false
+      use_sub_plot: true
+    - color: ''
+      hidden: true
+      hover_color: ''
+      hover_template: ''
+      identifier: chamber actual
+      label: chamber actual
+      use_fahrenheit: false
+      use_sub_plot: false
+    - color: ''
+      hidden: true
+      hover_color: ''
+      hover_template: ''
+      identifier: chamber target
+      label: chamber target
+      use_fahrenheit: false
+      use_sub_plot: false
+    - color: '#ffbe00'
+      hidden: false
+      hover_color: ''
+      hover_template: ''
+      identifier: P actual
+      label: PSU
+      use_fahrenheit: false
+      use_sub_plot: false
+    - color: ''
+      hidden: true
+      hover_color: ''
+      hover_template: ''
+      identifier: P target
+      label: ''
+      use_fahrenheit: false
+      use_sub_plot: false
+    - color: '#ff0081'
+      hidden: false
+      hover_color: ''
+      hover_template: ''
+      identifier: R actual
+      label: PI MCU
+      use_fahrenheit: false
+      use_sub_plot: false
+    - color: ''
+      hidden: true
+      hover_color: ''
+      hover_template: ''
+      identifier: R target
+      label: ''
+      use_fahrenheit: false
+      use_sub_plot: false
+    - color: '#ff7878'
+      hidden: false
+      hover_color: ''
+      hover_template: ''
+      identifier: M actual
+      label: SKR MCU
+      use_fahrenheit: false
+      use_sub_plot: false
+    - color: ''
+      hidden: true
+      hover_color: ''
+      hover_template: ''
+      identifier: M target
+      label: ''
+      use_fahrenheit: false
+      use_sub_plot: false
+  simpleemergencystop:
+    enableMargin: true
+    marginValue: '20'
+  softwareupdate:
+    _config_version: 9
+  themeify:
+    enableCustomization: true
+    tabs:
+      enableIcons: true
+  tracking:
+    enabled: true
+    unique_id: 70efff08-c3d8-443e-8783-3352782d6787
+  virtual_printer:
+    _config_version: 1
+printerProfiles:
+  default: _default
+serial:
+  additionalPorts:
+  - /tmp/printer
+  baudrate: 250000
+  disconnectOnErrors: false
+  port: /tmp/printer
+  timeout:
+    positionLogWait: 15.0
+    temperatureAutoreport: 5.0
+server:
+  commands:
+    serverRestartCommand: sudo service octoprint restart
+    systemRestartCommand: sudo shutdown -r now
+    systemShutdownCommand: sudo shutdown -h now
+  firstRun: false
+  onlineCheck:
+    enabled: true
+  pluginBlacklist:
+    enabled: true
+  secretKey: hOCmj5IdBZ0mCE2gQQ0dmGIgI1UIZayI
+  seenWizards:
+    backup: null
+    classicwebcam: 1
+    corewizard: 4
+    file_check: 1
+    octoeverywhere: 10
+    tracking: null
+temperature:
+  cutoff: 15
+  profiles:
+  - bed: 70
+    chamber: null
+    extruder: 210
+    name: PETG
+  - bed: 60
+    chamber: null
+    extruder: 190
+    name: PLA
+webcam:
+  ffmpeg: /usr/bin/ffmpeg
+  timelapse:
+    fps: 25
+    options:
+      interval: 10
+    postRoll: 1
+    type: timed

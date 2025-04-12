@@ -1,0 +1,56 @@
+- current_version: 2.3.3
+  datetime: '2025-02-11 14:19:58'
+  display_name: Print Time Genius Plugin
+  release_notes: https://github.com/eyal0/OctoPrint-PrintTimeGenius/releases/tag/2.3.4
+  success: true
+  target: PrintTimeGenius
+  target_version: 2.3.4
+  text: Update successful
+- current_version: 0.5.0
+  datetime: '2025-02-11 14:20:05'
+  display_name: Cancel object
+  release_notes: https://github.com/paukstelis/Octoprint-Cancelobject/releases/tag/0.6.0
+  success: true
+  target: cancelobject
+  target_version: 0.6.0
+  text: Update successful
+- current_version: 2.1.6
+  datetime: '2025-02-11 14:20:13'
+  display_name: OctoApp
+  release_notes: https://github.com/crysxd/OctoApp-Plugin/releases/tag/2.1.9
+  success: true
+  target: octoapp
+  target_version: 2.1.9
+  text: Update successful
+- current_version: 3.6.5
+  datetime: '2025-02-11 14:20:22'
+  display_name: octoeverywhere
+  release_notes: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere/releases/tag/3.6.8
+  success: true
+  target: octoeverywhere
+  target_version: 3.6.8
+  text: Update successful
+- current_version: 2.3.4
+  datetime: '2025-02-25 18:29:35'
+  display_name: Print Time Genius Plugin
+  release_notes: https://github.com/eyal0/OctoPrint-PrintTimeGenius/releases/tag/2.4.0
+  success: true
+  target: PrintTimeGenius
+  target_version: 2.4.0
+  text: Update successful
+- current_version: 3.6.8
+  datetime: '2025-03-10 08:51:39'
+  display_name: octoeverywhere
+  release_notes: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere/releases/tag/4.1.0
+  success: true
+  target: octoeverywhere
+  target_version: 4.1.0
+  text: Update successful
+- current_version: 2.1.9
+  datetime: '2025-04-10 14:30:35'
+  display_name: OctoApp
+  release_notes: https://github.com/crysxd/OctoApp-Plugin/releases/tag/2.1.11
+  success: true
+  target: octoapp
+  target_version: 2.1.11
+  text: Update successful
